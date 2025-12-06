@@ -1,0 +1,102 @@
+.navbar {  
+font-family: Sans-serif;
+display: flex;  
+background-color: black;;
+}
+.navbar a {  
+color: white;  
+padding: 14px 20px;  
+text-decoration: none;  
+text-align: center;
+}
+.navbar .right {  
+margin-left: auto;
+}
+
+.container1 {
+    background-color: #666666;
+    background-image: url('./picture/pexels-jplenio-1423600.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Sans-serif;
+    border-style: solid;
+    height: 220vh;
+}
+
+.box {
+    height: 80px;
+}
+
+.box200 {
+    height: 200px;
+}
+
+.box20 {
+    height: 20px;
+}
+
+.inner {
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px 12px rgba(0, 0, 0, 0.58);
+    background-color: white;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.innerlogo {
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px 12px rgba(0, 0, 0, 0.58);
+    background-color: white;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxlogo {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.datainner {
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px 12px rgba(0, 0, 0, 0.58);
+    background-color: white;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.profile {
+    width: 150px; /* Set equal width and height for a square */
+    height: 150px;
+    border-radius: 50%; /* This is the key to making it a circle */
+    border: 2px solid;
+    box-shadow: 2px 2px 20px 12px rgba(0, 0, 0, 0.58);
+    margin: 20px;
+}
+
+.logo {
+    width: 80px; /* Set equal width and height for a square */
+    height: 80px;
+    border-radius: 20%; /* This is the key to making it a circle */
+    margin: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: left;
+}
